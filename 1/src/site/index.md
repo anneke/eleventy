@@ -4,9 +4,7 @@ title: My meetup is pretty awesome
 ---
 
 
-## Is it amazing?
-
-Yes it is. Look at the different editions!
+## Is the new branch working?
 
 
 ## Editions
