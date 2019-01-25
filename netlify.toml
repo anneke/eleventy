@@ -5,18 +5,17 @@
 #  command = "eleventy"
 
 [build]
-  base = "/4"
-  publish = "/4/dist"
-  functions = "/4/functions"
-  command = "eleventy"
+  base = "/6"
+  publish = "/6/dist"
+  functions = "/6/functions"
+  command = "yarn run build"
 
 
 
-# Redirect a likely mistake
-# [[redirects]]
-#   from = "/edition*"
-#   to = "/number/:splat"
-#   status = 302
+[[redirects]]
+  from = "/edition*"
+  to = "/number/:splat"
+  status = 302
 
 
 # proxy calls to functions
@@ -41,12 +40,12 @@
 
 
 # 404s
-# [[redirects]]
-#   from = "/number*"
-#   to = "/edition-not-found"
-#   status = 404
+[[redirects]]
+  from = "/number*"
+  to = "/edition-not-found"
+  status = 404
 
-# [[redirects]]
-#   from = "*"
-#   to = "/404"
-#   status = 404
+[[redirects]]
+  from = "*"
+  to = "/404"
+  status = 404
