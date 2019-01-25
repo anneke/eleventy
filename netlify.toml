@@ -13,7 +13,7 @@
 
 
 [[redirects]]
-  from = "/edition*"
+  from = "/edition/*"
   to = "/number/:splat"
   status = 302
 
