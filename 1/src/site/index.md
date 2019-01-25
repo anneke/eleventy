@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: My meetup is amazing
+title: My meetup is pretty awesome
 ---
 
 
