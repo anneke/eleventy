@@ -8,7 +8,7 @@
   base = "/4"
   publish = "/4/dist"
   functions = "/4/functions"
-  command = "eleventy"
+  command = "yarn run build"
 
 
 
