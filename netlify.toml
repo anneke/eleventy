@@ -19,10 +19,10 @@
 
 
 # proxy calls to functions
-# [[redirects]]
-#   from = "/api/*"
-#   to = "/.netlify/functions/:splat"
-#   status = 200
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
 # lockdown the private directory
 # [[redirects]]
